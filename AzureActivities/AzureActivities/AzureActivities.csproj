@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Azure.Storage.Blobs" Version="12.14.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="HL7SoupIntegrations">
+      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\Popokey\Integration Host Server\HL7SoupIntegrations.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
